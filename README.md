@@ -7,7 +7,6 @@ A classic interactive Rock-Paper-Scissors game built in C. This project demonstr
 * **Live Scoreboard:** Tracks the User's and Computer's score in real-time.
 * **Input Validation:** Prevents the game from crashing if invalid numbers are entered.
 * **Infinite Play:** The game runs in a loop until the user decides to exit.
-* **Visual Feedback:** Uses emojis (✊✋✌️) to make the console output engaging.
 
 ## 🧠 Concepts Used
 * **Randomness (`rand()` & `srand()`):** used to generate unpredictable computer moves.
