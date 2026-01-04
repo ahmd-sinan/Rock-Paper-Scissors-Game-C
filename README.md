@@ -25,11 +25,5 @@ A classic interactive Rock-Paper-Scissors game built in C. This project demonstr
     ```bash
     ./game
     ```
-
-## 🔮 Future Improvements
-* Add a "Best of 5" mode that automatically ends the game.
-* Save high scores to a file.
-* Add a " Lizard-Spock" variation (Big Bang Theory style).
-
 ## 👨‍💻 Purpose
 This project was built to practice random number generation and game state logic in C.
