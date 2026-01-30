@@ -3,8 +3,8 @@
 #include <time.h>
 
 int main() {
-    int userChoice, compChoice;
-    int userScore = 0, compScore = 0;
+    int userChoice, compChoice; 
+    int userScore = 0, compScore = 0;  // For calculate user and computer score
 
     srand(time(0));     //Seed the random number generator so it changes every time we run
 
@@ -30,7 +30,7 @@ int main() {
             break;
         }
 
-        if(userChoice < 1 || userChoice > 4) {
+        if(userChoice < 1 || userChoice > 4) {  // Invalid Entry
             printf("Invalid Choice!! Try Again!\n");
             continue;
         }
@@ -62,4 +62,5 @@ int main() {
     }
     return 0;
 }
+
 
